@@ -164,13 +164,13 @@ body {
   margin-top: 30px;
   padding: 10px 32px;
   cursor: pointer;
-  transition: all 0.7s;
+  transition: 0.7s;
 }
 .button-service:hover,
 .button-service:focus {
   background-color: var(--light-gray);
   color: var(--brand-color);
-  transition: all 0.7s;
+  transition: 0.7s;
 }
 /* Modal */
 .backdrop.is-hidden {
@@ -540,7 +540,7 @@ body {
   display: flex;
   margin: auto;
   font-size: 20px;
-  transition: all 0.2s;
+  transition: 500ms ease;
   padding: 20px 0;
 }
 .social li {
